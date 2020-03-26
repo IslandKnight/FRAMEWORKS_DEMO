@@ -1,6 +1,20 @@
 from pytest import mark
+from selenium import webdriver
 
 
 @mark.body
-def test_body_functions_as_expected():
-    assert True
+class BodyTests:
+
+    def test_body_functions_as_expected(self):
+        assert True
+
+    def test_can_navigate_to_body_page(self):
+        driver = webdriver
+        driver.chrome.get("http//www.google.com/")
+        assert True
+
+    def test_bumber(self):
+        assert True
+
+    def test_windshield(self):
+        assert True
