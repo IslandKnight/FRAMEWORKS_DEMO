@@ -9,8 +9,8 @@ class BodyTests:
         assert True
 
     def test_can_navigate_to_body_page(self):
-        driver = webdriver
-        driver.chrome.get("http//www.google.com/")
+        driver = webdriver.chrome
+        driver.chrome("http//www.google.com/")
         assert True
 
     def test_bumber(self):
