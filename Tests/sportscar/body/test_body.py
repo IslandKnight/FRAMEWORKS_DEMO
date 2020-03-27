@@ -1,7 +1,8 @@
 from pytest import mark
 from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
 
-
+   
 @mark.body
 class BodyTests:
 
@@ -9,8 +10,8 @@ class BodyTests:
         assert True
 
     def test_can_navigate_to_body_page(self):
-        driver = webdriver
-        driver.chrome.get("http//www.google.com/")
+        driver = webdriver.chrome
+        driver.get("http//www.google.com/")
         assert True
 
     def test_bumber(self):
