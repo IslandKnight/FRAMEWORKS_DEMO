@@ -10,6 +10,7 @@ class BodyTests:
         assert True
 
     def test_can_navigate_to_body_page(self):
+
         driver = webdriver.Firefox()
         driver.get("https://www.google.com/")
         assert True
