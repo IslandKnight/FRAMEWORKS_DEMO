@@ -601,8 +601,7 @@ MigrationBackup/
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
-<<<<<<< HEAD
 .vscode/settings.json
-=======
 temptext.txt
->>>>>>> 57e785410efd920dfed17e3ff696104fe2316f79
+assets/style.css
+/results.html
